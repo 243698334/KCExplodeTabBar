@@ -153,6 +153,10 @@
     return [self.viewControllers objectAtIndex:index].tabBarItem.borderColor;
 }
 
+- (CGFloat)borderWidthForMainTabInExplodeTabBar:(KCExplodeTabBar *)explodeTabBar {
+    return self.mainTabBorderWidth;
+}
+
 
 #pragma mark - KCExplodeTabBarDelegate
 

@@ -62,6 +62,7 @@
     self.explodeTabBarController = [[KCExplodeTabBarController alloc] init];
     self.explodeTabBarController.titleHidden = NO;
     self.explodeTabBarController.defaultViewControllerIndex = 1;
+    self.explodeTabBarController.mainTabBorderWidth = 2.0;
     [self.explodeTabBarController setViewControllers:@[firstNavigationController, secondNavigationController, thirdNavigationController, fourthNavigationController]];
     
     [self.navigationController setViewControllers:@[self, self.explodeTabBarController] animated:NO];

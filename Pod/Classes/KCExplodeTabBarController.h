@@ -29,6 +29,9 @@
 
 #import "KCExplodeTabBar.h"
 
+/**
+ @abstract Add one more init method with border configurations for a tab.
+ */
 @interface UITabBarItem (KCExplodeTabBarItem)
 /**
  @abstract Create an `UITabBarItem` with more attributes defined in this category.
@@ -53,5 +56,10 @@
  @abstract Specifies the index of the view controller displayed by default.
  */
 @property (nonatomic, assign) NSInteger defaultViewControllerIndex;
+
+/**
+ @abstract Specifies the border of the main tab.
+ */
+@property (nonatomic, assign) CGFloat mainTabBorderWidth;
 
 @end

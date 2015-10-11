@@ -42,7 +42,13 @@ UITabBarItem *tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Demo"
                                                    borderColor:[UIColor redColor]];
 self.demoViewController.tabBarItem = tabBarItem;
 ````
-There will be no border if you pass `0.0` to `borderWidth` or use the `UITabBarItem`'s default `init`.
+There will be no border if you use the `UITabBarItem`'s default `init`.
+
+
+To set the border width for the main tab, simply do
+````objective-c
+self.explodeTabBarController.mainTabBorderWidth = 2.0;
+````
 
 
 - **Tabs**
