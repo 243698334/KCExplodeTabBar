@@ -5,7 +5,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/KCExplodeTabBar.svg?style=flat)](http://cocoapods.org/pods/KCExplodeTabBar)
 
 ## Screenshots
-![demo](https://cloud.githubusercontent.com/assets/5849363/10416041/686fe9fe-6fca-11e5-8ee5-0ccfdfac8c55.gif)
+![demo](https://cloud.githubusercontent.com/assets/5849363/10416148/53808936-6fcf-11e5-9ad4-105a960b634d.gif)
 ![screenshot](https://cloud.githubusercontent.com/assets/5849363/10415913/9b618c38-6fc4-11e5-84b2-aa93e36a8fa4.png)
 
 ## Documentation
