@@ -180,7 +180,7 @@ typedef NS_ENUM(NSInteger, KCExplodeTabBarState) {
 
 - (void)didTapMainTabButton:(UIButton *)mainTabButton {
     if (self.dataSource != nil && [self.dataSource respondsToSelector:@selector(numberOfTabsInExplodeTabBar:)]) {
-        if ([self.dataSource numberOfTabsInExplodeTabBar:self] > 0) {
+        if ([self.dataSource numberOfTabsInExplodeTabBar:self] > 1) {
             switch (self.tabBarState) {
                 case KCExplodeTabBarStateCollapsed:
                     [self expandExplodeTabBarAnimated:YES];
